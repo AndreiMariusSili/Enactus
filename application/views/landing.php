@@ -72,7 +72,7 @@
 
 				<!-- section start - offcanvas side -->
 				<!-- ================ -->
-				<div class="offcanvas-container">
+				<section class="offcanvas-container">
 					<nav id="offcanvas" class="animated navmenu navmenu-default navmenu-fixed-left offcanvas offcanvas-left" role="navigation">
 						<!-- logo -->
 						<div class="logo">
@@ -121,12 +121,12 @@
 					<!-- <img src="assets/images/Logo_crane.png"> -->
 
 					<button type="button" class="offcanvas-toggle-left navbar-toggle" data-toggle="offcanvas" data-target="#offcanvas" style="background-color: transparent; !important"></button>
-				</div>
+				</section>
 				<!-- section end - offcanvas side -->
 			
 				<!-- section start - background video -->
 				<!-- ================ -->
-				<section class="video-background pv-40 dark-translucent-bg hovered">
+				<section id="video-background" class="video-background pv-40 dark-translucent-bg hovered">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -142,7 +142,7 @@
 
 				<!-- section start - about us -->
 				<!-- ================ -->
-				<section id="services" class="light-gray-bg pv-30 clearfix">
+				<section id="services" class="main-container light-gray-bg pv-40 clearfix">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -205,216 +205,214 @@
 
 				<!-- section start - accomplishments -->
 				<!-- ================ -->
-				<section class="main-container">
+				<section id="accomplishments" class="main-container dark-bg pv-40 clearfix">
 					<div class="container">
 						<div class="row">
-
-							<!-- main start -->
-							<!-- ================ -->
-							<div class="main col-md-12">
-							<h2 class="text-center"><strong>Our</strong> Accomplishments</h2>
+							<div class="main col-md-12 acc-color ">
+							<h2 class="text-center acc-color"><strong>Our</strong> Accomplishments</h2>
 								<div class="separator"></div>
 								<div class="stats">
 									<div class="row">
 										<div class="col-md-3 col-xs-6 text-center">
 											<div class="feature-box pv-20 object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
 												<span class="icon default-bg circle large"><i class="fa fa-diamond"></i></span>
-												<h3>Projects</h3>
+												<h3 class="acc-color">Projects</h3>
 												<span class="counter" data-to="1525" data-speed="5000">0</span>
 											</div>
 										</div>
 										<div class="col-md-3 col-xs-6 text-center">
 											<div class="feature-box pv-20 object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
 												<span class="icon default-bg circle large"><i class="fa fa-users"></i></span>
-												<h3>Clients</h3>
+												<h3 class="acc-color">Clients</h3>
 												<span class="counter" data-to="1225" data-speed="5000">0</span>
 											</div>
 										</div>
 										<div class="col-md-3 col-xs-6 text-center">
 											<div class="feature-box pv-20 object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
 												<span class="icon default-bg circle large"><i class="fa fa-cloud-download"></i></span>
-												<h3>Downloads</h3>
+												<h3 class="acc-color">Downloads</h3>
 												<span class="counter" data-to="12235" data-speed="5000">0</span>
 											</div>
 										</div>
 										<div class="col-md-3 col-xs-6 text-center">
 											<div class="feature-box pv-20 object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
 												<span class="icon default-bg circle large"><i class="fa fa-share"></i></span>
-												<h3>Shares</h3>
+												<h3 class="acc-color">Shares</h3>
 												<span class="counter" data-to="15002" data-speed="5000">0</span>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<!-- main end -->
-
 						</div>
 					</div>
 				</section>
 				<!-- section end - accomplishments -->
 
-				<!-- accordion start -->
+				<!-- section start - contact us -->
 				<!-- ================ -->
-				<h2 class="text-center">Contact <strong>Us</strong></h2>
-				<div class="separator"></div>
-				<br><p>Insert description of Founder </p>
-				<div class="panel-group collapse-style-2" id="accordion-2">
-					<div class="panel panel-default">
+				<section id="contact-us" class="main-container pv-40 clearfix">
+					<div class="container">
+						<div class="row">
+							<h2 class="text-center">Contact <strong>Us</strong></h2>
+							<div class="separator"></div>
+							<div class="panel-group collapse-style-2" id="accordion-2">
+								<div class="panel panel-default">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseOne-2" class="collapsed">
+															<i class="fa fa-leaf pr-10"></i>Founder
+														</a>
+													</h4>
+												</div>
+												<div id="collapseOne-2" class="panel-collapse collapse">
+													<div class="panel-body">
+														<form role="form">
+															<label>Name</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<label>Last name</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<label>Date of birth</label>
+															<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
+															<label>Occupation</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<div class="form-group">
+																<label for="exampleInputEmail1">Email address</label>
+																<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+															</div>
+															<label>Tell us your idea!</label>
+															<textarea class="form-control" rows="5"></textarea>
+															<div class="form-group">
+															<label>
+																	<input type="checkbox"> I want to receive news and updates
+															</label>
+															<br>
+															<button type="submit" class="btn btn-default">Submit</button>
+															<p></p>
+															</div>
+														</form>
+													</div>
+												</div>
+								</div>
+								<div class="panel panel-default">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-2" class="collapsed">
+															<i class="fa fa-leaf pr-10"></i>Co-founder
+														</a>
+													</h4>
+												</div>
+												<div id="collapseTwo-2" class="panel-collapse collapse">
+													<div class="panel-body">
+														<form role="form">
+															<label>Name</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<label>Last name</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<label>Date of birth</label>
+															<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
+															<label>Occupation</label>
+															<textarea class="form-control" rows="1"></textarea>
+															<div class="form-group">
+																<label for="exampleInputEmail1">Email address</label>
+																<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+															</div>
+														</form>
+															<h5>Choose a project</h5>
+														<form role="form">
+															<select class="form-control"> 
+																<option>Select</option>
+																<option>Klik</option>
+																<option>sMaak</option>
+																<option>Organo Bike</option>
+																<option>Women helping women</option>
+																<option>Innovation team</option>
+															</select>
+															<br>
+															<label for="exampleInputFile">Upload your motivation!</label>
+																<input type="file" id="exampleInputFile">
+															<div class="form-group">
+																<label>
+																	<input type="checkbox"> I want to receive news and updates
+																</label>
+																<br>
+																<button type="submit" class="btn btn-default">Submit</button>
+															</div>
+														</form>
+													</div>
+												</div>
+								</div>
+								<div class="panel panel-default">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseThree-2" class="collapsed">
+															<i class="fa fa-leaf pr-10"></i>Student
+														</a>
+													</h4>
+												</div>
+												<div id="collapseThree-2" class="panel-collapse collapse">
+													<div class="panel-body">
+														<form role="form">
+															<div class="form-group">
+																<label>Name</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Last name</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Studies</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Date of birth</label>
+																<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
+																<label for="exampleInputEmail1">Email address</label>
+																<input type="email" class="form-control" id="exampleInputEmail1">
+															</div>
+															<label>Inquiry</label>
+															<textarea class="form-control" rows="6"></textarea>
+															<label><input type="checkbox"> I want to receive news and updates</label>
+															<br>
+															<button type="submit" class="btn btn-default">Submit</button>
+														</form>
+													</div>
+												</div>
+								</div>
+								<div class="panel panel-default">
 									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseOne-2" class="collapsed">
-												<i class="fa fa-leaf pr-10"></i>Founder
-											</a>
-										</h4>
+													<h4 class="panel-title">
+														<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseFour-2" class="collapsed">
+															<i class="fa fa-leaf pr-10"></i>Business
+														</a>
+													</h4>
 									</div>
-									<div id="collapseOne-2" class="panel-collapse collapse">
-										<div class="panel-body">
-											<form role="form">
-												<label>Name</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<label>Last name</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<label>Date of birth</label>
-												<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
-												<label>Occupation</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<div class="form-group">
-													<label for="exampleInputEmail1">Email address</label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-												</div>
-												<label>Tell us your idea!</label>
-												<textarea class="form-control" rows="5"></textarea>
-												<div class="form-group">
-												<label>
-														<input type="checkbox"> I want to receive news and updates
-												</label>
-												<br>
-												<button type="submit" class="btn btn-default">Submit</button>
-												<p></p>
-												</div>
-											</form>
-										</div>
+									<div id="collapseFour-2" class="panel-collapse collapse">
+													<div class="panel-body">
+														<form role="form">
+															<div class="form-group">
+																<label>Business name</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Business industry</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Contact name</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Email</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Phone number</label>
+																<textarea class="form-control" rows="1"></textarea>
+																<label>Inquiry</label>
+																<textarea class="form-control" rows="6"></textarea>
+																<label>
+																		<input type="checkbox"> I want to receive news and updates
+																</label>
+																<br>
+																<button type="submit" class="btn btn-default">Submit</button>
+															</div>
+														</form>
+													</div>
 									</div>
-					</div>
-					<br><p>Insert description of Co-founder</p>
-					<div class="panel panel-default">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-2" class="collapsed">
-												<i class="fa fa-leaf pr-10"></i>Co-founder
-											</a>
-										</h4>
-									</div>
-									<div id="collapseTwo-2" class="panel-collapse collapse">
-										<div class="panel-body">
-											<form role="form">
-												<label>Name</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<label>Last name</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<label>Date of birth</label>
-												<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
-												<label>Occupation</label>
-												<textarea class="form-control" rows="1"></textarea>
-												<div class="form-group">
-													<label for="exampleInputEmail1">Email address</label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-												</div>
-											</form>
-												<h5>Choose a project</h5>
-											<form role="form">
-												<select class="form-control"> 
-													<option>Select</option>
-													<option>Klik</option>
-													<option>sMaak</option>
-													<option>Organo Bike</option>
-													<option>Women helping women</option>
-													<option>Innovation team</option>
-												</select>
-												<br>
-												<label for="exampleInputFile">Upload your motivation!</label>
-													<input type="file" id="exampleInputFile">
-												<div class="form-group">
-													<label>
-														<input type="checkbox"> I want to receive news and updates
-													</label>
-													<br>
-													<button type="submit" class="btn btn-default">Submit</button>
-												</div>
-											</form>
-										</div>
-									</div>
-					</div>
-					<br><p>Insert description of Student</p>
-					<div class="panel panel-default">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseThree-2" class="collapsed">
-												<i class="fa fa-leaf pr-10"></i>Student
-											</a>
-										</h4>
-									</div>
-									<div id="collapseThree-2" class="panel-collapse collapse">
-										<div class="panel-body">
-											<form role="form">
-												<div class="form-group">
-													<label>Name</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Last name</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Studies</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Date of birth</label>
-													<textarea class="form-control" rows="1" placeholder="dd/mm/yyyy"></textarea>
-													<label for="exampleInputEmail1">Email address</label>
-													<input type="email" class="form-control" id="exampleInputEmail1">
-												</div>
-												<label>Inquiry</label>
-												<textarea class="form-control" rows="6"></textarea>
-												<label><input type="checkbox"> I want to receive news and updates</label>
-												<br>
-												<button type="submit" class="btn btn-default">Submit</button>
-											</form>
-										</div>
-									</div>
-					</div>
-					<br><p>Insert description of Business</p>
-					<div class="panel panel-default">
-						<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-2" href="#collapseFour-2" class="collapsed">
-												<i class="fa fa-leaf pr-10"></i>Business
-											</a>
-										</h4>
+								</div>
+							</div>
 						</div>
-						<div id="collapseFour-2" class="panel-collapse collapse">
-										<div class="panel-body">
-											<form role="form">
-												<div class="form-group">
-													<label>Business name</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Business industry</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Contact name</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Email</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Phone number</label>
-													<textarea class="form-control" rows="1"></textarea>
-													<label>Inquiry</label>
-													<textarea class="form-control" rows="6"></textarea>
-													<label>
-															<input type="checkbox"> I want to receive news and updates
-													</label>
-													<br>
-													<button type="submit" class="btn btn-default">Submit</button>
-												</div>
-											</form>
-										</div>
-						</div>
 					</div>
-				</div>
+				</section>
+				
 				<!-- accordion end -->
 
 			<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
@@ -427,7 +425,7 @@
 					<div class="container">
 						<div class="footer-inner">
 							<div class="row">
-								<div class="col-md-6 col-md-offset-3">
+								<div class="col-md-8 col-md-offset-2">
 									<div class="footer-content text-center padding-ver-clear">
 										<div class="logo-footer"><img id="logo-footer" class="center-block" src="assets/images/Logo_origami.png" alt="Logo_Enactus_Origami"></div>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Lorem ipsum dolor sit amet, illo vel dolorum soluta consectetur.</p>

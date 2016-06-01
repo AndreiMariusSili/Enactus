@@ -7,3 +7,36 @@ Created:December 2014
 License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+.enactus-gray-bg {
+  background-color: #515356;
+  border-top: 1px solid #515356;
+  border-bottom: 1px solid #515356;
+}
+
+.acc-color{
+	color: #FAFAFA;
+}
+
+.separator-dark {
+  width: 100%;
+  margin: 20px auto 15px;
+  position: relative;
+  height: 2px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+.separator-dark:after {
+  height: 2px;
+  background: #e8e8e8;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 35%, rgba(255, 255, 255, 0.09) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(35%, rgba(255, 255, 255, 0.09)), color-stop(70%, rgba(255, 255, 255, 0.09)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 35%, rgba(255, 255, 255, 0.09) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 35%, rgba(255, 255, 255, 0.09) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 35%, rgba(255, 255, 255, 0.09) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 35%, rgba(255, 255, 255, 0.09) 70%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  bottom: -1px;
+  content: "";
+  width: 100%;
+  left: 0;
+}
