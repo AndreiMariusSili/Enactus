@@ -33,6 +33,24 @@ footer.dark {
 .dark .footer .link-dark {
   color: #FEFEFE;
 }
+
 .dark .footer .link-dark:hover {
   color: #FFC222;
+}
+
+/*animate.css '@keyframes swing' comment*/
+
+.animation_loop {
+    animation-name:swing;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes swing{
+    0.5%{transform:rotate(-15deg)}
+    2.7%, 7.1%{transform:rotate(15deg)}
+    4.9%, 9.3%{transform:rotate(-15deg)}
+    11.5%{transform: none;}
 }

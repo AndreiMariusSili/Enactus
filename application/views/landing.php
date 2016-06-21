@@ -96,7 +96,7 @@
 							<li><a href="/Main/teams">Teams</a></li>
 						</ul>
 					</nav>
-					<button type="button" class="offcanvas-toggle-left navbar-toggle" data-toggle="offcanvas" data-target="#offcanvas" style="background-color: transparent; !important"></button>
+					<button type="button" class="offcanvas-toggle-left navbar-toggle animation_loop" data-toggle="offcanvas" data-target="#offcanvas" style="background-color: transparent; !important"></button>
 				</section>
 				<!-- section end - offcanvas side -->
 			
